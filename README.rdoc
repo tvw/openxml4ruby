@@ -1,9 +1,17 @@
 = openxml4ruby
 
-Description goes here.
+A library to write Open XML files in ruby.
+
+== Current state
+
+The intention is to write a mainly simple api to generate Open XML documents
+in ruby, which are accepted by Office 2007 and Office 2010.
+
+In the moment, this projects purpose is to evaluate, how far I will get to
+achieve this goal.
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
