@@ -10,8 +10,15 @@ begin
     gem.email = "tvw@s4r.de"
     gem.homepage = "http://github.com/tvw/openxml4ruby"
     gem.authors = ["Thomas Volkmar Worm"]
+
+    # Gem depenencies
+    gem.add_dependency "builder", ">= 2.1.2"
+
+    # Gem depenencies (Development)
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_development_dependency "cucumber", ">= 0.6.2"
+    gem.add_development_dependency "nokogiri", ">= 1.4.2"
+
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
